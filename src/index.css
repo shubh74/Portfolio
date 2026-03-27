@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.black-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.violet-gradient {
+  background: linear-gradient(
+    to right,
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.green-pink-gradient {
+  background: "linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%)";
+}
+
+.orange-text-gradient {
+  font-weight: 700;
+  background: linear-gradient(180deg, #ffa500 0%, #ff6b00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-text-gradient {
+  font-weight: 700;
+  background: linear-gradient(180deg, #00cea8 0%, #00b89c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  font-weight: 700;
+  background: linear-gradient(180deg, #56ccf2 0%, #2f80ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
+  font-weight: 700;
+  background: linear-gradient(180deg, #ff49db 0%, #ff00a0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-img_hover:hover {
+  transform: scale(1.1);
+  transition: all 0.25s ease;
+}
